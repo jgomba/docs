@@ -39,6 +39,12 @@ This Quick Start Guide is divided into different tasks for easier consumption.
   > For a full list of port requirements, refer to [Single Node Installation]({{< baseurl >}}/rancher/v2.x/en/installation/references).
 
   Provision the host according to our [Requirements]({{< baseurl >}}/rancher/v2.x/en/installation/requirements/).
+  
+### - Install Docker on the destination system
+To run the Rancher as a container, ensure that docker is installed on the target host
+Optionally enable docker to start as a service when the target host is started
+The instructions to run docker may be found on the link below
+https://docs.docker.com/install/ 
 
 ### 2. Install Rancher
 
